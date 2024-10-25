@@ -84,4 +84,77 @@
 .direita{
     width: 50%;
     height: 450px;
+    padding:20px;
+}
+
+.textContainer{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.rightTitle{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Reaction{
+    background: linear-gradient(to right, #fbe6ee, #FEFEFE);
+}
+.Memory{
+    background: linear-gradient(to right, #fffff2, #FEFEFE);
+}
+.Verbal{
+    background: linear-gradient(to right, #e3f7f0, #FEFEFE);
+}
+.Visual{
+    background: linear-gradient(to right, #f5efff, #FEFEFE);
+}
+
+.IconReaction{
+    margin-right: 5px;
+}
+
+.ReactionTXT{
+    color: #F00;
+    font-size: 18px;
+}
+.MemoryTXT{
+    color: #E9C45A;
+    font-size: 18px;
+}
+.VerbalTXT{
+    color: #47BEA2;
+    font-size: 18px;
+}
+.VisualTXT{
+    color: #424CB9;
+    font-size: 18px;
+}
+
+.grayTXT{
+    color: #999AAB;
+}
+
+.Result{
+    margin-left: 15px;
+}
+
+.continueBTN{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    color: #FFF;
+    background-color: #312CEA;
+}
+
+.continueBTN:hover{
+    cursor: pointer;
+    background: linear-gradient(to top, #312CEA, #6743FF);
 }
