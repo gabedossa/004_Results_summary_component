@@ -5,7 +5,6 @@ async function loadData() {
 
         data.forEach(item => {
             const element = document.getElementById(item.category);
-            
             if(element){
               element.textContent= `${item.score} /`;
   
